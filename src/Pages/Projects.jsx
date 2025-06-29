@@ -21,8 +21,8 @@ function Projects() {
                     "• Implemented a dynamic navigation system with smooth scrolling and mobile-friendly hamburger menu, enhancing accessibility across devices. ",
                     "• Integrated EmailJS to enable direct messaging functionality, allowing users to send emails without backend setup."
                 ],
-                codeLink: "",
-                liveLink: ""
+                codeLink: "https://github.com/Khaja-Mohiddin-Shaik/Portfolio",
+                liveLink: "https://portfolio-bdl8.onrender.com"
             }} />
 
             <ProjectCard props={{
