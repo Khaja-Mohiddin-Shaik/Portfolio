@@ -29,7 +29,7 @@ function Contact() {
   };
 
   return (
-    <div id='Contact' className='contact scroll-mt-[4vh] h-screen text-white bg-[#0D0D0D] font-[Inter] p-2 w-full flex flex-col justify-evenly pt-4 lg:h-screen lg:flex-row lg:w-screen lg:scroll-mt-[12vh] lg:pt-2 lg:justify-evenly  '>
+    <div id='Contact' className='contact scroll-mt-[4vh] min-h-screen text-white bg-[#0D0D0D] font-[Inter] p-2 w-full flex flex-col justify-start gap-y-8 pt-4 lg:min-h-screen lg:flex-row lg:w-screen lg:scroll-mt-[12vh] lg:pt-2 lg:justify-evenly  '>
 
       {/* Contact Form */}
       <div className="contact-left bg-[#222020] rounded-md p-2 w-[98%] pb-5 lg:w-[49%] lg:pl-8 lg:p-6 lg:h-auto h-auto">
@@ -71,7 +71,7 @@ function Contact() {
             required
           ></textarea>
 
-          <div className="button text-center mt-2 rounded-sm">
+          <div className="button text-center mt-4 mb-4 rounded-sm">
             <button type="submit" className='text-xs p-2 lg:p-3 bg-[#FDEE53] text-black lg:text-lg cursor-pointer'>
               Send Message
             </button>
@@ -96,7 +96,7 @@ function Contact() {
           </div>
           <div className="email flex gap-1">
             <img src={Mail} alt="Mail" className='w-4 h-4 lg:w-7 lg:h-7' />
-            <h3 className='text-xs font-semibold lg:text-lg'>e-mail:</h3>
+            <h3 className='text-xs font-semibold lg:text-lg'>E-mail:</h3>
             <p className='text-xs font-light lg:text-lg'>khaja28mohiddin@gmail.com</p>
           </div>
         </div>
