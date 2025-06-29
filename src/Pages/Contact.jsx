@@ -29,10 +29,10 @@ function Contact() {
   };
 
   return (
-    <div id='Contact' className='contact scroll-mt-[4vh] h-screen text-white bg-[#0D0D0D] font-[Inter] p-2 w-full flex flex-col justify-evenly pt-4 lg:h-screen lg:flex-row lg:w-screen lg:scroll-mt-[12vh] lg:pt-2 lg:justify-center '>
+    <div id='Contact' className='contact scroll-mt-[4vh] h-screen text-white bg-[#0D0D0D] font-[Inter] p-2 w-full flex flex-col justify-evenly pt-4 lg:h-screen lg:flex-row lg:w-screen lg:scroll-mt-[12vh] lg:pt-2 lg:justify-evenly  '>
 
       {/* Contact Form */}
-      <div className="contact-left bg-[#222020] rounded-md p-2 w-[98%] pb-5 lg:w-[49%] lg:pl-8 lg:p-6 lg:h-[85%]">
+      <div className="contact-left bg-[#222020] rounded-md p-2 w-[98%] pb-5 lg:w-[49%] lg:pl-8 lg:p-6 lg:h-auto h-auto">
         <form ref={formRef} onSubmit={sendEmail} className="form flex flex-col">
           <h3 className='font-bold text-lg mb-2 lg:text-2xl lg:mb-10'>Contact</h3>
 
@@ -80,19 +80,19 @@ function Contact() {
       </div>
 
       {/* Contact Information */}
-      <div className="contact-right bg-black rounded-md p-2 w-[98%] pl-3 pb-5 lg:w-[48%] lg:pl-8  lg:h-[85%] lg:p-5">
+      <div className="contact-right bg-black rounded-md p-2 w-[98%] pl-3 pb-5 lg:w-[48%] lg:pl-8  lg:h-auto h-auto lg:p-5">
         <h3 className='font-bold text-lg mb-6 lg:text-2xl lg:mb-16'>Contact Information</h3>
 
         <div className="information flex flex-col gap-10 lg:gap-20 lg:pl-12">
           <div className="address flex gap-1">
             <img src={Address} alt="Address" className='w-4 h-4 lg:w-7 lg:h-7' />
             <h3 className='text-xs font-semibold lg:text-lg'>Address:</h3>
-            <p className='text-xs font-light lg:text-lg'>dsadfsfsfdfdsfdsfdfdfdsadsadsdsdsddd</p>
+            <p className='text-xs font-light lg:text-lg'>43-103-6 PNT COLONY, AJITH SINGH NAGAR, VIJAYAWADA(URBAN), KRISHNA. ANDHRA PRADESH - 520015</p>
           </div>
           <div className="phone flex gap-1">
             <img src={Phone} alt="Phone" className='w-4 h-4 lg:w-7 lg:h-7' />
             <h3 className='text-xs font-semibold lg:text-lg'>Phone:</h3>
-            <p className='text-xs font-light lg:text-lg'>91 9030101173</p>
+            <p className='text-xs font-light lg:text-lg'>+91 9030101173</p>
           </div>
           <div className="email flex gap-1">
             <img src={Mail} alt="Mail" className='w-4 h-4 lg:w-7 lg:h-7' />
