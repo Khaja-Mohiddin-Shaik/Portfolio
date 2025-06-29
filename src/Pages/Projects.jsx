@@ -3,7 +3,7 @@ import ProjectCard from './Project-sections/ProjectCard'
 function Projects() {
 
     return (
-        <div id='Projects' className='lg:scroll-mt-[12vh] scroll-mt-[4vh] bg-[#0D0D0D] text-white w-screen p-2 flex flex-col justify-evenly lg:gap-2  font-[Inter] items-center lg:min-h-screen h-screen'>
+        <div id='Projects' className='lg:scroll-mt-[12vh] scroll-mt-[4vh] bg-[#0D0D0D] text-white w-screen p-2 flex flex-col justify-evenly lg:gap-2  font-[Inter] items-center lg:min-h-screen min-h-screen'>
 
             <ProjectCard props={{
                 projectTitle: "Facebook Login Page Clone",
