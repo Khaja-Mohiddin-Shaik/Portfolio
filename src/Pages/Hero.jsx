@@ -21,7 +21,7 @@ function Hero() {
 
         {/* Resume Button */}
         <a
-          href="https://drive.google.com/file/d/1UmD2xSN0WCcPcOiSqpJMa6VGERXeOhhH/view?id=1UmD2xSN0WCcPcOiSqpJMa6VGERXeOhhH"
+          href="https://drive.google.com/file/d/1j_yHS5noiM_6eiIiSx_S1WwQ4OsHzWJJ/view"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-gradient-to-r from-[#003CAC] to-[#118DAF] text-white text-xs lg:text-xl font-light px-4 py-2 rounded-lg border border-l-[#13BDEB] border-r-[#118DAF] hover:scale-105 transition-transform duration-200"
