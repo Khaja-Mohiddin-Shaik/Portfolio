@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo from "../assets/images/Profile-photo/Photo.jpeg";
+import Photo from "../assets/images/Profile-photo/Photo.jpg";
 
 function Hero() {
   return (
@@ -35,7 +35,7 @@ function Hero() {
         <img
           src={Photo}
           alt="Profile"
-          className="rounded-[50%] w-full h-full object-cover"
+          className="rounded-[50%] w-full h-full object-center border-2 border-[#118DAF] shadow-lg shadow-[#118DAF]"
         />
       </div>
     </div>
